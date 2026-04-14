@@ -7,3 +7,9 @@ commands:
   nbt:
     description: NBT utility command.
     usage: /nbt <sync|add|remove|compare|view>
+    permission: nbtutility.admin
+
+permissions:
+  nbtutility.admin:
+    description: Allows the user to use the NBT utility commands.
+    default: op
