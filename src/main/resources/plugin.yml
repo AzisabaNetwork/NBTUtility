@@ -1,0 +1,9 @@
+name: NBTUtility
+version: '${version}'
+main: net.azisaba.nbtutility.NBTUtility
+api-version: '1.15'
+authors: [Azisaba Network]
+commands:
+  nbt:
+    description: NBT utility command.
+    usage: /nbt <sync|add|remove|compare|view>
